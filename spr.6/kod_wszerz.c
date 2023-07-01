@@ -51,7 +51,7 @@ int main() {
     }
   
     //Program zaczyna działać:
-    printf("Rozpoczynanie przeszukiwania wszerz (BFS)...\n");
+    printf("Rozpoczynanie przeszukiwania wszerz ...\n");
     przeszukiwanieWszerz(wierzcholekStartowy);
 
     return 0;
