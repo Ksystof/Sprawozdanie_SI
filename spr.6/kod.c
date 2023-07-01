@@ -35,9 +35,11 @@ int main() {
     graf[2][5] = 1;
     graf[2][6] = 1;
 
+    //Deklaracja danych:
     int wierzcholekStartowy = 0;
     int wierzcholekDocelowy = 4;
-
+    //----
+    
     // Inicjalizacja tablicy odwiedzone
     for (int i = 0; i < MAKS_WIERZCHOLKI; i++) {
         odwiedzony[i] = false;
