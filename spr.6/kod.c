@@ -5,8 +5,10 @@
 //Definicja:
 #define MAKS_WIERZCHOLKI 20
 
+//Deklaracja:
 bool odwiedzony[MAKS_WIERZCHOLKI]; // Tablica odwiedzonych wierzchołków
 int graf[MAKS_WIERZCHOLKI][MAKS_WIERZCHOLKI]; // Graf reprezentowany jako macierz sąsiedztwa
+//----
 
 void przeszukiwanieWglab(int wierzcholek, int cel) { //Funckja do wyświetlenia
     odwiedzony[wierzcholek] = true;
