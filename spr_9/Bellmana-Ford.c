@@ -76,37 +76,37 @@ int main() {
     struct Graf* graf = stworzGraf(V, E);
 
     // Dodawanie krawędzi
-    graf->krawedzie[0].zrodlo = 0;
+    graf->krawedzie[0].zrodlo  = 0;
     graf->krawedzie[0].cel = 1;
-    graf->krawedzie[0].waga = -1;
+    graf->krawedzie[0].waga = 4;
 
     graf->krawedzie[1].zrodlo = 0;
     graf->krawedzie[1].cel = 2;
-    graf->krawedzie[1].waga = 4;
+    graf->krawedzie[1].waga = 0;
 
     graf->krawedzie[2].zrodlo = 1;
     graf->krawedzie[2].cel = 2;
-    graf->krawedzie[2].waga = 3;
+    graf->krawedzie[2].waga = 8;
 
-    graf->krawedzie[3].zrodlo = 1;
+    graf->krawedzie[3].zrodlo = 2;
     graf->krawedzie[3].cel = 3;
-    graf->krawedzie[3].waga = 2;
+    graf->krawedzie[3].waga = 7;
 
-    graf->krawedzie[4].zrodlo = 1;
-    graf->krawedzie[4].cel = 4;
-    graf->krawedzie[4].waga = 2;
+    graf->krawedzie[4].zrodlo = 2;
+    graf->krawedzie[4].cel = 5;
+    graf->krawedzie[4].waga = 4;
 
     graf->krawedzie[5].zrodlo = 3;
-    graf->krawedzie[5].cel = 2;
-    graf->krawedzie[5].waga = 5;
+    graf->krawedzie[5].cel = 4;
+    graf->krawedzie[5].waga = 9;
 
     graf->krawedzie[6].zrodlo = 3;
-    graf->krawedzie[6].cel = 1;
-    graf->krawedzie[6].waga = 1;
+    graf->krawedzie[6].cel = 5;
+    graf->krawedzie[6].waga = 14;
 
     graf->krawedzie[7].zrodlo = 4;
-    graf->krawedzie[7].cel = 3;
-    graf->krawedzie[7].waga = -3;
+    graf->krawedzie[7].cel = 5;
+    graf->krawedzie[7].waga = 10;
 
     int zrodlo = 0;  // Wierzchołek źródłowy
 
